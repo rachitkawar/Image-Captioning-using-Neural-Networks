@@ -1,0 +1,3 @@
+2018-11-28 13:08:43.852801: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+Using TensorFlow backend.
+man in red shirt is walking down the street 
