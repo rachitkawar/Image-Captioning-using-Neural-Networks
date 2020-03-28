@@ -18,7 +18,7 @@ import tensorflow as tf
 class OrganizeData():
     
     def __init__(self):
-        self.ImageDirectory = 'Flickr8k_Dataset/Flickr8k_Dataset'
+        self.ImageDirectory = 'Flickr8k_Dataset/Flicker8k_Dataset'
         self.CaptionFile = 'Flickr8k_text/Flickr8k.token.txt'
 
     def load_image(self,path):
