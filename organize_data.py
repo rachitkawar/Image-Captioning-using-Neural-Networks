@@ -63,8 +63,8 @@ class OrganizeData():
         list_of_features[image_id] = feature
         print('>%s' % name)
       print('Extracted list_of_features: %d' %len(list_of_features))
-      
-      dump(list_of_features, open('models/list_of_features.pkl', 'wb'))
+      filess = open('models/list_of_features.pkl', 'wb')
+      dump(list_of_features, filess)
 
     
     def acquire_doc(self):
