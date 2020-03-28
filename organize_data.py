@@ -125,7 +125,7 @@ class OrganizeData():
         [all_desc.update(d.split()) for d in descriptions[key]]
       vocabulary = all_desc
       print('Vocabulary Size: %d' % len(vocabulary))
-
+      return vocabulary
     
     def save_descriptions(self,descriptions, fname):
       lines = list()
