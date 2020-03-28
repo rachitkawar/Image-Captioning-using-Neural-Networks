@@ -1,3 +1,4 @@
+from tensorflow import keras
 from os import listdir
 from pickle import dump
 from keras.applications.vgg16 import VGG16
